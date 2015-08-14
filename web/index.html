@@ -1,0 +1,58 @@
+<!doctype html>
+<html ng-app="gdgxCloud" itemscope itemtype="http://schema.org/Organization">
+<head>
+  <title>GDG-X Cloud</title>
+  <link rel="canonical" ng-href="{{ canonical }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description"
+        content="GDG[x] is made up of a group of GDG organizers and members whose goals are to build solutions to problems faced when trying to manage a Google Developer Group community.">
+  <meta name="application-name" content="GDG-X Cloud">
+  <meta name="fragment" content="!"/>
+  <link href="https://fonts.googleapis.com/css?family=RobotoDraft:400,300,500,700,400italic" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet'>
+  <!-- bower:css -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- endinject -->
+  <link rel="icon" sizes="16x16 32x32" href="favicon.ico">
+</head>
+<body ng-controller="MainController as mc">
+
+<!-- TODO Edit here to update your snippet for sharing. -->
+<span itemprop="name" style="display: none;">GDG-X Cloud</span>
+<span itemprop="description" style="display: none;">GDG[x] is made up of a group of GDG organizers and members whose goals are to build solutions to problems faced when trying to manage a Google Developer Group community.</span>
+<img itemprop="image" style="display: none;"
+     src="https://lh5.googleusercontent.com/-OI600W6NQZg/Uabdf3idwyI/AAAAAAAAABA/Vcxm9MfIRHY/s512-no/gdg-x-logo-white.png">
+
+<md-toolbar class="md-hue-2">
+  <div class="md-toolbar-tools">
+    <h2 flex>
+      <span>GDG-X Cloud</span>
+    </h2>
+
+    <div class="g-plusone" data-size="large"></div>
+    <a ng-if="mc.googlePlusLink" ng-href="{{ mc.googlePlusLink }}" rel="publisher" target="_blank">
+      <md-icon class="socialIcon" md-font-set="fa fa-lg fa-google-plus-square" aria-label="Google+"></md-icon>
+    </a>
+  </div>
+</md-toolbar>
+<div layout layout-margin layout-align="center start">
+  <div>
+    <md-card style="max-height: 600px">
+      <a ng-href="{{ mc.googlePlusLink }}">
+        <img src="https://lh5.googleusercontent.com/-OI600W6NQZg/Uabdf3idwyI/AAAAAAAAABA/Vcxm9MfIRHY/s512-no/gdg-x-logo-white.png">
+      </a>
+    </md-card>
+  </div>
+</div>
+</body>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-sanitize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.10.1/angular-material.min.js"></script>
+<script src="app/gdgxCloud.module.js"></script>
+<script src="app/gdgxCloud.config.js"></script>
+</html>
